@@ -1,0 +1,4 @@
+"""
+DocChat Backend Application
+"""
+

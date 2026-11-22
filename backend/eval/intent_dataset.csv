@@ -1,0 +1,217 @@
+text,intent,split
+How long does delivery usually take?,faq,train
+What is your return policy?,faq,train
+Do you offer cash on delivery?,faq,train
+Is shipping free?,faq,train
+Which payment methods do you accept?,faq,test
+How many days do I have to return something?,faq,train
+When will I get my refund after returning?,faq,train
+Do you deliver outside India?,faq,train
+Does the smartwatch come with a warranty?,faq,train
+How do I reset my password,faq,test
+can i pay with upi,faq,train
+what's the minimum order for free shipping,faq,train
+Can I exchange shoes for a different size?,faq,train
+"My payment failed but money got deducted, what happens now?",faq,train
+how do i change my delivery address,faq,test
+Are my card details stored safely?,faq,train
+do you have EMI options,faq,train
+how long do refunds take to reach my card,faq,train
+What are your customer support hours?,faq,train
+Is express delivery available in Pune?,faq,test
+can innerwear be returned,faq,train
+how do i update my phone number on my account,faq,train
+do electronics have replacement policy,faq,train
+what does express shipping cost,faq,train
+Where is my order ORD-10023?,order_status,train
+Has my order shipped yet?,order_status,train
+When will my package arrive?,order_status,train
+track order 10025,order_status,train
+"My order hasn't arrived yet, where is it?",order_status,test
+What's the status of ORD-10021,order_status,train
+Can you give me the tracking number for my smartwatch order,order_status,train
+is my parcel out for delivery,order_status,train
+When is the expected delivery date for order number 10023?,order_status,train
+"i ordered a jacket 4 days ago, any update?",order_status,test
+check status of my order please,order_status,train
+Which courier is delivering my order?,order_status,train
+where is my stuff,order_status,train
+order 10028 delivered or not?,order_status,train
+I want to know where my package is right now,order_status,test
+how many more days for my order to come,order_status,train
+tracking details for ORD-10025,order_status,train
+did my order get dispatched,order_status,train
+has the air purifier order been shipped,order_status,train
+Can you tell me when my last order will be delivered,order_status,test
+"my delivery is late, where is it?",order_status,train
+status update on order ORD 10024,order_status,train
+show me my recent orders,order_status,train
+what did I order last week and where is it,order_status,train
+I want to return the headphones from ORD-10021,return_request,train
+"The coffee maker arrived damaged, I need a refund",return_request,train
+How do I return my running shoes?,return_request,train
+I'd like to return an item,return_request,train
+"Wrong size delivered, want to send it back",return_request,test
+"The mouse stopped working, please take it back",return_request,train
+I want a refund for order 10028,return_request,train
+Can I return the backpack? I don't like the colour,return_request,train
+start a return for my phone case,return_request,train
+the product is defective I want to return it,return_request,test
+please arrange a pickup for return,return_request,train
+I received the wrong item in ORD-10021,return_request,train
+"return the shoes, they don't fit",return_request,train
+I need to send back the t-shirts,return_request,train
+want my money back for the broken headphones,return_request,test
+how do i get a refund for a damaged product,return_request,train
+requesting return for order ORD-10027,return_request,train
+"the item is not as described, return it",return_request,train
+initiate return please,return_request,train
+can you process a return for the laptop backpack,return_request,test
+"the jacket has a tear, i want to return it",return_request,train
+"i changed my mind about the earbuds, return please",return_request,train
+"refund my order, the quality is bad",return_request,train
+exchange or return the headphones,return_request,train
+Cancel my order ORD-10024,cancel_order,train
+I want to cancel my order,cancel_order,train
+please cancel the air purifier order,cancel_order,train
+can I still cancel order 10024?,cancel_order,train
+"Stop my order, I don't need it anymore",cancel_order,test
+cancel order number 10023,cancel_order,train
+"I ordered by mistake, cancel it",cancel_order,train
+how do I cancel an order,cancel_order,train
+"don't ship my order, cancel it",cancel_order,train
+cancel the water bottles I just bought,cancel_order,test
+I need to cancel ORD-10025 urgently,cancel_order,train
+is it too late to cancel my order,cancel_order,train
+abort my last purchase,cancel_order,train
+please cancel and refund my order,cancel_order,train
+cancel my purchase from today,cancel_order,test
+"I placed a duplicate order, cancel one",cancel_order,train
+cancel order before it ships,cancel_order,train
+"I found it cheaper elsewhere, cancel my order",cancel_order,train
+want to cancel the smartwatch order,cancel_order,train
+cancel everything I ordered today,cancel_order,test
+can you call off my order,cancel_order,train
+"remove my order please, I don't want it",cancel_order,train
+cancellation request for ORD-10024,cancel_order,train
+kindly cancel my recent order,cancel_order,train
+Is the power bank in stock?,product_info,train
+How much does the smartwatch cost?,product_info,train
+Do you sell yoga mats?,product_info,train
+Tell me about the SoundWave headphones,product_info,train
+What's the battery life of the earbuds?,product_info,test
+Do you have a 24 inch monitor?,product_info,train
+price of the coffee maker,product_info,train
+is the air purifier available,product_info,train
+which backpack fits a 15.6 inch laptop,product_info,train
+what sizes do the running shoes come in,product_info,test
+recommend some wireless earbuds,product_info,train
+do you have adjustable dumbbells,product_info,train
+what is the capacity of the steel bottle,product_info,train
+is the vitamin c serum good for oily skin,product_info,train
+show me kitchen products,product_info,test
+how many pieces in the brick set,product_info,train
+does the monitor have hdmi,product_info,train
+cheapest wireless mouse you have,product_info,train
+is the denim jacket regular fit,product_info,train
+when will the power bank be back in stock,product_info,test
+what books do you have,product_info,train
+features of PulseFit smartwatch,product_info,train
+does the cookware work on induction,product_info,train
+I'm looking for a gift under 1000 rupees,product_info,train
+I want to talk to a human,talk_to_human,train
+Connect me to a real person,talk_to_human,train
+Can I speak with an agent?,talk_to_human,train
+transfer me to customer care,talk_to_human,train
+let me talk to someone from support,talk_to_human,test
+"I don't want a bot, get me a person",talk_to_human,train
+human please,talk_to_human,train
+speak to a representative,talk_to_human,train
+"call me back, I need a human agent",talk_to_human,train
+is there a real person I can talk to,talk_to_human,test
+escalate this to a manager,talk_to_human,train
+I need to speak to your supervisor,talk_to_human,train
+get me a live agent now,talk_to_human,train
+can a person call me,talk_to_human,train
+agent,talk_to_human,test
+talk to support staff,talk_to_human,train
+I'd prefer to chat with a human,talk_to_human,train
+put me through to customer service,talk_to_human,train
+"your bot is useless, give me a human",talk_to_human,train
+I want to raise this with a senior person,talk_to_human,test
+connect me with someone who can actually help,talk_to_human,train
+please have someone contact me,talk_to_human,train
+operator,talk_to_human,train
+need human assistance,talk_to_human,train
+This is the worst service I've ever had,complaint,train
+I am very disappointed with ShopEase,complaint,train
+Your delivery guys were so rude,complaint,train
+the packaging was terrible,complaint,train
+"I've been waiting forever, this is unacceptable",complaint,test
+"your app keeps crashing, so annoying",complaint,train
+the quality of your products has gone down,complaint,train
+I'm really frustrated with this experience,complaint,train
+"this is ridiculous, nobody helps",complaint,train
+"you guys charged me twice, pathetic",complaint,test
+worst shopping experience ever,complaint,train
+i'm never ordering from you again,complaint,train
+the courier threw my parcel at the gate,complaint,train
+your website is so confusing,complaint,train
+this company is a scam,complaint,test
+really bad experience with my last order,complaint,train
+I'm angry about how I was treated,complaint,train
+"delivery was 10 days late, terrible",complaint,train
+"the product looked nothing like the photos, I feel cheated",complaint,train
+I've complained three times already,complaint,test
+your service has been awful lately,complaint,train
+so much hassle for a simple order,complaint,train
+extremely unhappy with the delay,complaint,train
+this is a waste of my time and money,complaint,train
+hi,greeting,train
+hello,greeting,train
+hey there,greeting,train
+good morning,greeting,train
+thanks!,greeting,test
+thank you so much,greeting,train
+bye,greeting,train
+"that's all, thanks",greeting,train
+"hello, can you help me?",greeting,train
+"hi, I have a question",greeting,test
+"great, thanks for the help",greeting,train
+ok cool,greeting,train
+good evening,greeting,train
+hey,greeting,train
+"thanks a lot, that solved it",greeting,test
+namaste,greeting,train
+you were very helpful,greeting,train
+see you,greeting,train
+goodbye,greeting,train
+awesome thank you,greeting,test
+hi there,greeting,train
+ok thanks bye,greeting,train
+"perfect, thanks",greeting,train
+hello support,greeting,train
+What's the weather today?,other,train
+Tell me a joke,other,train
+who won the cricket match yesterday,other,train
+what is the capital of France,other,train
+write me a poem,other,test
+can you help me with my homework,other,train
+what's 25 times 4,other,train
+who are you voting for,other,train
+recommend a movie,other,train
+how do I cook biryani,other,test
+translate hello to spanish,other,train
+what is bitcoin price,other,train
+are you sentient,other,train
+book me a flight to Goa,other,train
+what time is it in London,other,test
+sing a song,other,train
+how tall is mount everest,other,train
+I'm bored,other,train
+explain quantum physics,other,train
+who is the prime minister,other,test
+find me a restaurant nearby,other,train
+what is love,other,train
+can you code a website for me,other,train
+banana,other,train
